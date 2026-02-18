@@ -1,0 +1,17 @@
+name: ibd
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pytorch
+  - pip
+  - pip:
+      - torchdiffeq
